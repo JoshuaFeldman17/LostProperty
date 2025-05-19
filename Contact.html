@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="homeButton"><a href="main.html"><button>Back</button></a></div>
+        <div class="schoolLogo"><img src="assets/logoRC.jpg" alt="School Logo"></div>
+    </div>
+    <div class="form-container">
+        <div class="title">
+            <img src="https://see.fontimg.com/api/rf5/axaBa/ZGJlYzM4NTNmMzllNDZlOGFiYWM4YmZlMTMzNzRjNTAub3Rm/Q29udGFjdCBVcw/bord-demo.png?r=fs&h=26&w=1000&fg=FF0000&bg=FFFFFF&s=26">
+        </div>
+        <div id="claimed-item-card" class="claimed-card" style="display: none;">
+            <img id="claimed-item-image" src="" alt="Claimed Item" style="width: 200px; height: auto; border-radius: 12px;">
+            <h2 id="claimed-item-tags"></h2>
+        </div>
+        <form action="https://formsubmit.co/f2e9c626f9a3c954833d73d886a4512a" method="POST">
+            <input type="hidden" name="claimed_item" id="claimed_item_input">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="text" id="email" name="email" placeholder="name@email.com" required><br><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" placeholder="Optional"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="contact.js"></script>
+</body>
+
+</html>

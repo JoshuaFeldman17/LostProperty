@@ -1,0 +1,78 @@
+<html>
+
+<head>
+   <meta charset="UTF-8" />
+   <title>Lost Property</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <div class="logo">
+      <img src="assets/logo.jpg" alt="Logo">
+    </div>  
+   <div class="title">
+      <img
+         src="https://see.fontimg.com/api/rf5/axaBa/ZGJlYzM4NTNmMzllNDZlOGFiYWM4YmZlMTMzNzRjNTAub3Rm/TG9zdCBQcm9wZXJ0eSBGaW5kZXI/bord-demo.png?r=fs&h=42&w=1000&fg=F80202&bg=F4EEEE&tb=1&s=42"
+         alt="Logo fonts">
+   </div>
+   <div class="top-section">
+      <div class="reportButton"><a href="Report.html"><button>Report Lost Property</button></a></div>
+      <div class="searchBar">
+         <input type="text" id="searchInput" placeholder="Search For Lost Property" onkeyup="searchItems()" />
+      </div>
+   </div>
+   <div class="container" data-tags="red, hat">
+      <img
+         src="https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         class="image" />
+      <div class="overlay">
+         <button class="claim-button" onclick="claimItem(this)">Claim This Item</button>
+      </div>
+      <div class="tags">
+         <span class="tag">Red</span>
+         <span class="tag">Hat</span>
+      </div>
+   </div>
+   <div class="container" data-tags="blue, pencil-case">
+      <img
+         src="https://media.istockphoto.com/id/172301298/photo/pencil-case-isolated.jpg?s=612x612&w=0&k=20&c=due_avySicNvgXdGoQ91F3kY3nZee9Z9TlNy_SY8xi4="
+         class="image" />
+      <div class="overlay">
+         <button class="claim-button" onclick="claimItem(this)">Claim This Item</button>
+      </div>
+      <div class="tags">
+         <span class="tag">Blue</span>
+         <span class="tag">Pencil-case</span>
+      </div>
+   </div>
+   <div class="container" data-tags="brown, bag">
+      <img
+         src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         class="image" />
+      <div class="overlay">
+         <button class="claim-button" onclick="claimItem(this)">Claim This Item</button>
+      </div>
+      <div class="tags">
+         <span class="tag">Brown</span>
+         <span class="tag">Bag</span>
+      </div>
+   </div>
+   <div class="container" data-tags="red, hat">
+      <img
+         src="https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         class="image" />
+      <div class="overlay">
+         <button class="claim-button" onclick="claimItem(this)">Claim This Item</button>
+      </div>
+      <div class="tags">
+         <span class="tag">Red</span>
+         <span class="tag">Hat</span>
+      </div>
+   </div>
+
+   <div class="ContactButton"><a href="Contact.html"><button>Contact Us</button></a></div>
+   <script src="search.js"></script>
+   <script src="claim.js"></script>
+</body>
+
+</html>

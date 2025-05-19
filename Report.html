@@ -1,0 +1,48 @@
+<html>
+
+<head>
+   <title>Report Lost Property</title>
+   <link rel="stylesheet" href="Report.css">
+</head>
+
+<body>
+   <div class="header">
+      <div class="homeButton"><a href="main.html"><button>Back</button></a></div>
+      <div class="schoolLogo"><img src="assets/logoRC.jpg" alt="School Logo"></div>
+   </div>
+
+   <div class="form-container">
+      <div class="title">
+         <img
+            src="https://see.fontimg.com/api/rf5/axaBa/ZGJlYzM4NTNmMzllNDZlOGFiYWM4YmZlMTMzNzRjNTAub3Rm/UmVwb3J0IExvc3QgUHJvcGVydHk/bord-demo.png?r=fs&h=17&w=1000&fg=F80202&bg=F4EEEE&tb=1&s=17"
+            alt="Title">
+      </div>
+
+      <form action="https://formsubmit.co/f2e9c626f9a3c954833d73d886a4512a" method="POST" enctype="multipart/form-data">
+         <label for="name">Name</label><br>
+         <input type="text" id="name" name="name" required><br><br>
+
+         <label for="email">Email Address</label><br>
+         <input type="text" id="email" name="email" placeholder="name@email.com" required><br><br>
+
+         <label for="message">Message</label><br>
+         <textarea id="message" name="message"
+            placeholder="Description of the lost property, date found and (if applicable) the name of the owner."
+            required></textarea><br><br>
+
+         <div id="drop-area">
+            <p id="drop-text">CHOOSE A PHOTO</p>
+            <input type="file" id="photo" name="photo" accept="image/*" hidden>
+            <img id="image-preview" src="" alt="Image Preview" style="display: none;">
+            <button type="button" id="remove-photo" style="display: none;">Remove Photo</button>
+            <span id="file-name">No file chosen</span>
+         </div>
+
+         <input type="submit" value="Submit">
+      </form>
+   </div>
+
+   <script src="report.js"></script>
+</body>
+
+</html>

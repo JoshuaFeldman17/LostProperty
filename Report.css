@@ -1,0 +1,297 @@
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.title {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.file-upload {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Futura", sans-serif;
+}
+
+.upload-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.upload-btn:hover {
+  background-color: #222;
+  transform: scale(1.02);
+}
+
+#file-name {
+  font-size: 14px;
+  color: #555;
+}
+
+#drop-area {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px auto;
+  font-family: "Futura", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+#drop-area:hover {
+  background-color: #f9f9f9;
+  border-color: #880000;
+}
+
+#image-preview {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 10px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  margin-top: 6px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  font-size: 14px;
+  padding: 12px 18px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: "Futura", sans-serif;
+  font-weight: 550;
+  transition: all 0.7s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #880000;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  margin-top: 10px;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #222;
+  transform: scale(1.02);
+}
+
+label {
+  font-weight: 650;
+}
+
+body {
+  font-family: "Futura", sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: "Futura", sans-serif;
+}
+
+.homeButton button {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-family: "Futura", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.homeButton button:hover {
+  background-color: #222;
+  transform: scale(1.02);
+}
+
+#remove-photo {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  margin-top: 10px;
+  display: none;
+}
+
+#remove-photo:hover {
+  background-color: darkred;
+  transform: scale(1.02);
+}
+
+.school-logo img {
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#drop-area {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 10px auto;
+  font-family: "Futura", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#remove-photo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  display: none;
+}
+
+#file-name {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-top: 5px;
+}
+
+#image-preview {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.schoolLogo img {
+  height: 100px;
+}
+.schoolLogo {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
